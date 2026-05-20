@@ -50,7 +50,7 @@ initial:
       Configuration to showcase the essential features of iSEEtree on microbiome data
   - id: config_iSEEid
     datasets:
-      - Allen
+      - PBMC3K
     title: Configuration to showcase the essential features of iSEEid
     uri: localhost://config_iSEEid.R
     description: |

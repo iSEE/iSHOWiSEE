@@ -1,4 +1,5 @@
 library(iSEE)
+library(iSEEde)
 
 # library(iSEEu)
 # library(iSEEfier)

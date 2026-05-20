@@ -1,0 +1,57 @@
+datasets:
+  - id: PBMC3K
+    title: PBMC3K - processed
+    uri: runr://readRDS("sce_pbmc3k.RDS")
+    description: |
+        The classical PBMC3K dataset.
+  - id: Allen
+    title: Allen - reprocessed
+    uri: runr://readRDS("sce_allen.RDS")
+    description: |
+        Reprocessed Allen Data.
+  - id: airway_DE
+    title: Airway - DE analysis
+    uri: runr://readRDS("se_airway.RDS")
+    description: |
+        The airway dataset, after DE & pathways analysis
+  - id: Tengeler
+    title: Tengeler microbiome data
+    uri: runr://readRDS("tse_tengeler.RDS")
+    description: |
+        The Tengeler microbiome data
+initial:
+  - id: config_iSEEfier
+    datasets:
+      - PBMC3K
+    title: config obtained from iSEEfier
+    uri: localhost://config_iSEEfier.R
+    description: |
+      config obtained from iSEEfier
+  - id: config_iSEEde
+    datasets:
+      - airway_DE
+    title: Configuration to showcase the essential features of iSEEde
+    uri: localhost://config_iSEEde.R
+    description: |
+      Configuration to showcase the essential features of iSEEde
+  - id: config_iSEEpathways
+    datasets:
+      - airway_DE
+    title: Configuration to showcase the essential features of iSEEpathways
+    uri: localhost://config_iSEEpathways.R
+    description: |
+      Configuration to showcase the essential features of iSEEpathways
+  - id: config_iSEEtree
+    datasets:
+      - Tengeler
+    title: Configuration to showcase the essential features of iSEEtree on microbiome data
+    uri: localhost://config_iSEEtree.R
+    description: |
+      Configuration to showcase the essential features of iSEEtree on microbiome data
+  - id: config_iSEEid
+    datasets:
+      - Allen
+    title: Configuration to showcase the essential features of iSEEid
+    uri: localhost://config_iSEEid.R
+    description: |
+      Configuration to showcase the essential features of iSEEid

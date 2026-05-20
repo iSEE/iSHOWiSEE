@@ -20,8 +20,8 @@ initial <- list(
   ),
   RowDataTable(
     PanelWidth = 3L,
-    Selected = "Foxp2",
-    Search = "Fox"
+    Selected = "CD3D",
+    Search = "CD"
   )
 )
 

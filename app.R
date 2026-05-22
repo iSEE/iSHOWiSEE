@@ -2,16 +2,17 @@ library(iSEE)
 library(iSEEde)
 
 # library(iSEEu)
-# library(iSEEfier)
+library(iSEEfier)
+library(iSEEtree)
+library(TreeSummarizedExperiment)
+library(fgsea)
 
 # library(iSEEde)
 # library(iSEEpathways)
 
-# library(iSEEtree)
-
 library(iSEEindex)
+library(iSEEid)
 
-# library(iSEEid)
 
 
 library("BiocFileCache")
